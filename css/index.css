@@ -105,12 +105,13 @@ div.call-to-action {
 
 div.call-to-action div.header-txt {
 	display: inline-block;
+	padding: 0 10%;
 }
 
 div.call-to-action div.header-txt a {
 	text-decoration: none;
 	border: 1px solid black;
-	padding: 3px 13%;
+	padding: 3px 14%;
 	color: black;
 }
 
@@ -135,9 +136,68 @@ footer p {
 	text-align: center;
 }
 
+@media (min-width: 501px) {
+	header div.logo {
+		border: none;
+	}
 
+	header nav {
+		display: flex;
+		justify-content: space-around;
+	}
 
+	header nav a {
+		border: none;
+	}
 
+	section.content div.content-top,
+	section.content div.content-bottom {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	section.content div.content-top div.text-container {
+		width: 48.5%;
+	}
+
+	section.content div.content-bottom div.text-container {
+		width: 33%;
+	}
+}
+
+@media (min-width: 801px) {
+	div.container {
+		width: 800px;
+		margin: 0 auto;
+	}
+
+	div.nav {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+
+	header nav {
+		width: 70%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	div.call-to-action {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	div.call-to-action div.header-txt {
+		padding: 0 10%;
+	}
+
+	div.call-to-action div.header-img {
+		display: block;
+		margin: 0;
+	}
+}
 
 
 
