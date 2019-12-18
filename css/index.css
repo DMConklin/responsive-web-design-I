@@ -162,11 +162,15 @@ footer p {
 	section.content div.content-bottom div.text-container {
 		width: 30%;
 	}
+
+	div.text-container {
+		line-height: 1.2;
+	}
 }
 
-@media (min-width: 801px) {
+@media (min-width: 876px) {
 	div.container {
-		width: 800px;
+		width: 876px;
 		margin: 0 auto;
 	}
 
