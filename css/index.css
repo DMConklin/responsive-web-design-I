@@ -156,11 +156,11 @@ footer p {
 	}
 
 	section.content div.content-top div.text-container {
-		width: 48.5%;
+		width: 48%;
 	}
 
 	section.content div.content-bottom div.text-container {
-		width: 33%;
+		width: 30%;
 	}
 }
 
@@ -195,6 +195,14 @@ footer p {
 	div.call-to-action div.header-img {
 		display: block;
 		margin: 0;
+	}
+
+	section.content div.content-top div.text-container {
+		width: 49%;
+	}
+
+	section.content div.content-bottom div.text-container {
+		width: 32%;
 	}
 }
 
